@@ -1,0 +1,26 @@
+-var personal_info = locals.personal_info
+
+div.education_column
+    each info in personal_info
+        p.border_line
+            span.schoolName #{info.school_name}
+        span.selfIntro #{info.Aboutme}
+        ul.edu_column1
+            li
+                span #{info.major}
+                span.type #{info.type}
+            li
+                span #{info.enlevel}
+                span.level #{info.English_level}
+            li
+                span.desc #{info.desc}
+
+        ul.edu_column2
+            li
+                span #{info.jiguan}：#{info.native}
+                span.now #{info.xianju}：#{info.now_place}
+            li
+                span #{info.xingbie}：#{info.sex}
+                span.date #{info.riqi}：#{info.date_of_birth}
+            li
+                span #{info.aihao}：#{info.interests}

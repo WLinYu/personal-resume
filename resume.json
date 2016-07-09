@@ -1,0 +1,93 @@
+{
+  "title": "汪林玉 - 个人简历",
+  "jobs": ["前端开发工程师"],
+  "xingming": "姓名",
+  "name": "汪林玉",
+  "youxiang": "邮箱",
+  "dianhua": "电话",
+  "mail": "13187139540@163.com",
+  "phone": "(+86) 1308053xxxx",
+  "boke": "博客",
+  "opensource": "github",
+  "blog": "http://wlyu.cn.com",
+  "github": "https://github.com/WLinYu",
+  "personal_info": [{
+    "Aboutme": "个人简介",
+    "school_name": "长沙理工大学：",
+    "major": "计算机与通信工程学院",
+    "type": "研究生",
+    "English_level": "CET-4",
+    "start": "2012.09",
+    "end": "2016.07",
+    "enlevel": "英语水平",
+    "desc": "能够阅读英文文档",
+    "jiguan": "籍贯",
+    "native": "湖南永州",
+    "xianju": "现居",
+    "now_place": "湖南长沙",
+    "xingbie": "性别",
+    "sex": "女",
+    "riqi": "出生日期",
+    "date_of_birth": "1993-05-11",
+    "aihao": "兴趣爱好",
+    "interests": "刷稀土掘金等的技术博客，微博"
+  }],
+  "experience": [{
+    "project_name": "项目名称",
+    "rightDescription": "时间",
+    "description": [
+      "项目的描述，支持markdown语法，eg：`AMD` & `CommonJS`",
+      "项目的描述，支持markdown语法，eg：`AMD` & `CommonJS`"
+    ]
+  },{
+    "project_name": "项目名称",
+    "rightDescription": "2015.09~2016.03",
+    "description": [
+      "项目的描述，支持markdown语法，eg：`AMD` & `CommonJS`",
+      "项目的描述，支持markdown语法，eg：`AMD` & `CommonJS`"
+    ]
+  }],
+  "works": [{
+    "intern_jobs": "某公司前端实习生 (时间)",
+    "description": [
+      "主要负责做什么，支持markdown语法中code的高亮",
+      "主要负责做什么，支持markdown语法中code的高亮"
+    ]
+  },{
+    "intern_jobs": "某公司前端开发实习生 (时间)",
+    "description": [
+      "主要负责做什么，支持markdown语法中code的高亮",
+      "主要负责做什么，支持markdown语法中code的高亮"
+    ]
+  }],
+  "skill": [{
+    "summary": "web前端：HTML / CSS、JavaScript",
+    "description": [
+      "能够编写语义化的`html`代码，掌握常见布局，了解浏览器兼容性问题",
+      "了解 `HTML5` / `CSS3` 新特性，并有相关项目经验，掌握`css`预处理器`LESS`"
+    ]
+  },{
+    "summary": "库/框架：jQuery、bootstrap、",
+    "description": [
+      "仔细阅读和使用`jQuery`和`bootstrap`，封装过DOM操作前端js类库",
+      "了解 `vue.js` & `node.js` 及前端 MV* 模型"
+    ]},{
+    "summary": "技 能 描 述：",
+    "description": [
+      "熟悉`ECMAScript`，对`js`有一定基础和学习。 ﻿写过`jQuery`全屏滚动插件",
+      "对`Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等模块化解决方案有一定了解",
+      "了解`ECMAScript 6`，了解 `JavaScript` 在浏览器环境中常见的兼容性问题及解决方案"
+    ]
+  }],
+  "self_desc": [{
+    "description": [
+      "该项目依托于Node环境，使用LESS，Jade，Gulp进行构建，可部署至github pages 在线浏览，可直接打印成pdf格式，让您减少简历制作的各种后顾之忧",
+      "关于我：一个前端路上奋斗的菜鸟"
+    ]
+  }],
+  "sideBar":[{
+    "column3": "实习经验",
+    "column4": "掌握技能",
+    "column5": "自我描述"
+  }]
+}

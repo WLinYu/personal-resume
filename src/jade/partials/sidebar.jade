@@ -1,0 +1,28 @@
+-var personal_info = locals.personal_info
+-var sideBar = locals.sideBar
+
+//左侧时间轴
+div.timelineWrapper
+    //教育背景
+    p.columnSet.eduction#column1
+        span.text 教育背景
+
+        each info in personal_info
+            span.schoolTime #{info.start} ~ #{info.end}
+
+    //项目经验
+    p.columnSet.project#column2
+        span.text 项目经验
+
+    each sid in sideBar
+        //实习/工作经验
+        p.columnSet.intern#column3
+            span.text #{sid.column3}
+
+        //掌握技能
+        p.columnSet.skill#column4
+            span.text #{sid.column4}
+
+        //自我描述
+        p.columnSet.self#column5
+            span.text #{sid.column5}

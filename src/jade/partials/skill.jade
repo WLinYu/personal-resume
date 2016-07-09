@@ -1,0 +1,9 @@
+-var skill = locals.skill
+-var markdownify = obj
+
+each ski in skill
+    div.skill
+        p.skill_desc #{ski.summary}
+        each des in ski.description
+            ul
+                li!= des

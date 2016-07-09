@@ -1,0 +1,9 @@
+-var works = locals.works
+
+each work in works
+    div.intern_column
+        p.intern_desc #{work.intern_jobs}
+     
+        each des in work.description
+            ul
+                li.project_desc!= des

@@ -1,0 +1,13 @@
+-var experience = locals.experience
+
+p#border_line1
+
+each exp in experience
+	div.experience
+		p.project_name
+			span.weight #{exp.project_name}
+			span.projectNameDesc #{exp.rightDescription}
+
+		each des in exp.description
+			ul
+				li.project_desc!= des

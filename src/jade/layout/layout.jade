@@ -1,0 +1,32 @@
+doctype html
+html
+head
+    meta(charset="UTF-8")
+        
+    -var data = locals.title
+    title #{data}
+    
+    link(rel="stylesheet" href="assets/css/index.css")
+
+body
+    main.resume
+        div.inner_resume
+            block header
+            block sidebar
+            div.resume_content
+                block education
+                block experience
+                block intern
+                block skill
+                block description
+            
+    footer
+        a(href="http://wlyu.cn.com/personal-resume/" target="_blank" class="resumeLinks") This resume
+        is built with Gulp, Jade and Less. All rights reserved By
+        a(href="https://github.com/WLinYu" class="resumeLinks") WLinYu
+        span .You can
+        a#print(href="javascript:;" class="resumeLinks")  print it
+
+    script(src="assets/js/jquery.js")
+    script(src="assets/js/script.js")
+

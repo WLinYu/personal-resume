@@ -1,0 +1,48 @@
+-var jobs = locals.jobs
+-var xingming = locals.xingming
+-var name = locals.name
+-var youxiang = locals.youxiang
+-var mail = locals.mail
+-var dh = locals.dianhua
+-var phone = locals.phone
+-var boke = locals.boke
+-var blog = locals.blog
+-var opensource = locals.opensource
+-var github = locals.github
+
+div.row.line1
+    table
+        tbody
+            tr
+                td.personal_resume
+                    span.text_resume Person Resume
+
+                if jobs
+                    td.jobs_wanted 求职意向：
+                        each job in jobs 
+                            span.job.weight #{job}
+                
+div.row
+    table
+        tbody
+            tr
+                td.personal_resume #{xingming}：
+                    span.weight #{name}
+                td.line2 #{youxiang}：#{mail}  
+                    span.tel #{dianhua}：#{phone}
+    
+div.row
+    table
+        tbody
+            tr
+                td.personal_resume.blog #{boke}：
+                td.line3 
+                    a(href='#{blog}',target="_blank") #{blog}
+        
+div.row
+    table
+        tbody
+            tr
+                td.personal_resume.blog #{opensource}：
+                td.line4
+                    a(href='#{github}',target="_blank") #{github}
