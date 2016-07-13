@@ -1,6 +1,7 @@
 ## About this repo
 
 `personal-resume` 是一个简历生成器，从json中读取数据，可部署到`github pages`
+
 在线浏览，也可生成pdf格式简历。 http://wlyu.cn.com/personal-resume/
 
  - 简历数据存放在`resume.json`文件中
