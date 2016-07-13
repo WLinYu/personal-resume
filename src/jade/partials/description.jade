@@ -1,6 +1,6 @@
 -var self_desc = locals.self_desc
 
-p.desc_header
 	each self in self_desc
+		p.desc_header!= self.myself
 		each des in self.description
 			p.self_content!= des
