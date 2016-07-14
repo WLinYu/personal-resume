@@ -1,9 +1,9 @@
 {
-  "name": "resume-master",
+  "name": "personal-resume",
   "description": "A resume generator read data from json",
   "main": "gulpfile.js",
   "authors": [
-    "trigkit4"
+    "WLinYu"
   ],
   "license": "MIT",
   "keywords": [
@@ -14,7 +14,7 @@
     "url": "https://github.com/WLinYu/personal-resume.git"
   },
   "moduleType": [],
-  "homepage": "https://wlyu.cn.com/WLinYu/personal-resume/",
+  "homepage": "https://wlyu.cn.com/personal-resume/",
   "private": true,
   "ignore": [
     "**/.*",
