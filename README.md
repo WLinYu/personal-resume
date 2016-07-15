@@ -6,7 +6,7 @@
 
  - 简历数据存放在`resume.json`文件中
  - 简历中的代码可高亮
- - 不兼容IE、百度浏览器（建议使用Chrome、Firefox ）
+ - 不兼容IE、百度浏览器（建议使用Chrome、Firefox或者Safari ）
 
 ## 环境安装
 
@@ -32,7 +32,7 @@ $ npm install -g bower
 
 ## 生成PDF文件
 
-请使用chrome或者Safari浏览器来打印。
+请使用chrome、Firefox或者Safari浏览器来打印。
 
 或者点击下方的`print it`打印
 
