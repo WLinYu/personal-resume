@@ -13,7 +13,7 @@
 an'zhaung安装Node
 Node.js：https://nodejs.org/en/，
 
-安装gulp和bowerode（quan'ju全局an'zhuang）：
+安装gulp和bower（全局安装）：
 
 ```js
 $ npm install --g gulp
