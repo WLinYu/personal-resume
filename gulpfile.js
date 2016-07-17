@@ -1,5 +1,5 @@
 /**
- * Created by trigkit4 on 16/6/3.
+ * Created by WLinYu on 16/6/13.
  */
 var gulp        =   require('gulp');
 var rename      =   require('gulp-rename');
